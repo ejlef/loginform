@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+   padding: 0;
+   font-family: Sans-serif;
+   background-color:#fff;
+ }
+.box{
+position: absolute;
+margin: 50%;
+top:20%;
+transform: translate(-50%,-50%);
+width: 200px;
+padding: 40px;
+background: rgba(0,0,0,.8);
+border-radius: 10px;
+box-shadow: 0px 15px 25px rgba(0,0,0,.6);
+
+}
+
+.box h2{
+margin-bottom:30px;
+color: #fff;
+text-align: center;
+}
+
+.box .inputbx{
+position: relative;
+}
+
+
+.box .inputbx input{
+width: 100%;
+margin: 0;
+bottom: 10;
+padding: 10px 0px;
+font-size: 12px;
+color: #fff;
+border: none;
+margin-bottom: 30px;
+border-bottom: 1px solid;
+outline: none;
+background: transparent;
+letter-spacing: 1px;
+}
+.box .inputbx label{
+position: absolute;
+top: 0;
+left: 0%;
+color: #fff;
+padding: 10px 0;
+font-size: 15px;
+letter-spacing: 6px;
+pointer-events: none;
+transition: .5s;
+}
+
+.box .inputbx label,
+.box .inputbx label{
+ top: -40%;
+color: lightblue;
+font-size: 13px;
+}
+.box input[type="submit"],input[type="reset"]{
+margin: 10px;
+left: 0;
+padding: 10px 20px;
+border: none;
+outline: none;
+background: lightblue;
+font-size:14px;
+font-weight: 500;
+border-sizing: border-box;
+border-radius: 10px;
+}
+
+#clr{
+  position:absolute;
+  left:50%;
+}
+
+#icon{
+  width:80px;
+  height:80px;
+  background-image:url("icon.png");
+  background-size:100% 100%;
+  mix-blend-mode: multiply;
+  position:relative;
+  left:30%;
+}
+
+a{
+text-decoration-color:#05f;
+color:#00f;
+}
