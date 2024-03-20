@@ -3,10 +3,9 @@
 $user = $_POST['username'];
 $pass = $_POST['password'];
 
-$conn = new mysqli('localhost:3306','root','','db1');
+$conn = new mysqli('localhost','root','','database');
 
 if($conn->connect_error){
-    echo "conn->connect_error";
     die("Connection failed: ".$conn->connect_error);
 }else{
 

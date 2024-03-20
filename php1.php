@@ -3,7 +3,7 @@ $user = $_POST['username'];
 $pass = $_POST['password'];
 $id = $_POST['id'];
 
-$conn = new mysqli('localhost:3306','root','','db1');
+$conn = new mysqli('localhost','root','','database');
 
 $sql = "select distinct * from `table1` where `username` = '$user' and `password` = '$pass' and `Id` = '$id'";
 
